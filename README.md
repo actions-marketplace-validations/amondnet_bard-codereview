@@ -11,7 +11,7 @@ Translation Versions: [ENGLISH](./README.md) | [中文简体](./README.zh-CN.md)
 3. click `actions` under `secrets and variables`
 4. Change to `Secrets` tab, create a new variable `BARD_API_KEY` with the value of [your open api key](https://www.bardapi.dev/)
 
-<img width="1052" alt="image" src="https://user-images.githubusercontent.com/13167934/218999459-812206e1-d8d2-4900-8ce8-19b5b6e1f5cb.png">
+<img width="1052" alt="image" src="https://user-images.githubusercontent.com/1964421/239205109-c12dd621-d110-4ea1-9441-2a16687b354f.png">
 
 ## Using Github Actions
 
@@ -89,10 +89,12 @@ For more, check out the [Contributing Guide](CONTRIBUTING.md).
 
 ## Credit
 
+
 This project is inpired by 
 - [CodeReview BOT](https://github.com/anc95/ChatGPT-CodeReview)
 - [codereview.gpt](https://github.com/sturdy-dev/codereview.gpt)
 
+
 ## License
 
-[ISC](LICENSE) © 2023 anc95
+[ISC](LICENSE) © 2023 Minsu Lee, anc95
