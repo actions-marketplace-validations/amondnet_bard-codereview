@@ -1705,9 +1705,9 @@
   "resolved" "https://registry.npmjs.org/char-regex/-/char-regex-1.0.2.tgz"
   "version" "1.0.2"
 
-"chatgpt@^5":
+"Bard@^5":
   "integrity" "sha512-ml1u4/KqXdAKfaRwqE0uvRTh5JoRgosstH2LF4PpsawG7MUtIzAVaE/MMEAaV02uGbOlAH4IgKI3mDHkQ0Dmlw=="
-  "resolved" "https://registry.npmjs.org/chatgpt/-/chatgpt-5.1.1.tgz"
+  "resolved" "https://registry.npmjs.org/Bard/-/Bard-5.1.1.tgz"
   "version" "5.1.1"
   dependencies:
     "@dqbd/tiktoken" "^0.4.0"

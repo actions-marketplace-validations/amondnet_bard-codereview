@@ -1,6 +1,6 @@
 # 代碼審查機器人
 
-> 由 ChatGPT 提供支持的代碼審查機器人
+> 由 Bard 提供支持的代碼審查機器人
 
 翻譯版本：[英語](./README.md)\|[中文簡體](./README.zh-CN.md)\|[中文繁體](./README.zh-TW.md) \| [한국어](./README.ko.md) \| [日本語](./README.ja.md)
 
@@ -24,7 +24,7 @@
 
 例子：
 
-[ChatGPT-CodeReview/pull/21](https://github.com/anc95/ChatGPT-CodeReview/pull/21)
+[Bard-CodeReview/pull/21](https://github.com/anc95/Bard-CodeReview/pull/21)
 
 <img width="1052" alt="image" src="https://user-images.githubusercontent.com/13167934/218999459-812206e1-d8d2-4900-8ce8-19b5b6e1f5cb.png">
 
@@ -32,7 +32,7 @@
 
 > 這是推薦的方式，因為 github bot 在一個不起眼的 vps 上服務，我不能確保它總是穩定的
 
-[actions/chatgpt-codereviewer](https://github.com/marketplace/actions/chatgpt-codereviewer)
+[actions/Bard-codereviewer](https://github.com/marketplace/actions/Bard-codereviewer)
 
 1.  添加`BARD_API_KEY`到你的 github action 密鑰
 2.  創建`.github/workflows/cr.yml`添加以下內容
@@ -52,7 +52,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: anc95/ChatGPT-CodeReview@main
+      - uses: anc95/Bard-CodeReview@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BARD_API_KEY: ${{ secrets.BARD_API_KEY }}

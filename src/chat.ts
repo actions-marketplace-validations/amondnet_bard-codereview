@@ -1,13 +1,13 @@
-// import { ChatGPTAPI } from 'chatgpt';
+// import { BardAPI } from 'Bard';
 const fetch = require('node-fetch').default;
 
 export class Chat {
-  // private chatAPI: ChatGPTAPI;
+  // private chatAPI: BardAPI;
   private apikey: string;
   constructor(apikey: string) {
     this.apikey = apikey;
     /*
-    this.chatAPI = new ChatGPTAPI({
+    this.chatAPI = new BardAPI({
       apiKey: apikey,
       apiBaseUrl: process.env.OPENAI_API_ENDPOINT || 'https://api.openai.com/v1',
       completionParams: {

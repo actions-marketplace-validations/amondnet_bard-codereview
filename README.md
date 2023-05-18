@@ -1,6 +1,6 @@
 # CodeReview BOT
 
-> A code review robot powered by ChatGPT
+> A code review robot powered by Bard
 
 Translation Versions: [ENGLISH](./README.md) | [中文简体](./README.zh-CN.md) | [中文繁體](./README.zh-TW.md) | [한국어](./README.ko.md) | [日本語](./README.ja.md)
 
@@ -27,13 +27,13 @@ Install: [apps/cr-gpt](https://github.com/apps/cr-gpt);
 
 example:
 
-[ChatGPT-CodeReview/pull/21](https://github.com/anc95/ChatGPT-CodeReview/pull/21)
+[Bard-CodeReview/pull/21](https://github.com/anc95/Bard-CodeReview/pull/21)
 
 <img width="1052" alt="image" src="https://user-images.githubusercontent.com/13167934/218999459-812206e1-d8d2-4900-8ce8-19b5b6e1f5cb.png">
 
 ## Using Github Actions
 
-[actions/chatgpt-codereviewer](https://github.com/marketplace/actions/chatgpt-codereviewer)
+[actions/Bard-codereviewer](https://github.com/marketplace/actions/Bard-codereviewer)
 
 1. add the `BARD_API_KEY` to your github actions secrets
 2. create `.github/workflows/cr.yml` add bellow content
@@ -54,7 +54,7 @@ jobs:
     if: ${{ contains(github.event.*.labels.*.name, 'gpt review') }} # Optional; to run only when a label is attached
     runs-on: ubuntu-latest
     steps:
-      - uses: anc95/ChatGPT-CodeReview@main
+      - uses: anc95/Bard-CodeReview@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BARD_API_KEY: ${{ secrets.BARD_API_KEY }}

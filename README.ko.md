@@ -1,6 +1,6 @@
 # CodeReview BOT
 
-> cr bot은 ChatGPT를 활용한 코드리뷰 로봇입니다.
+> cr bot은 Bard를 활용한 코드리뷰 로봇입니다.
 
 Translation Versions: [ENGLISH](./README.md) | [中文简体](./README.zh-CN.md) | [中文繁體](./README.zh-TW.md) | [한국어](./README.ko.md) | [日本語](./README.ja.md)
 
@@ -26,7 +26,7 @@ Translation Versions: [ENGLISH](./README.md) | [中文简体](./README.zh-CN.md)
 
 예시:
 
-[ChatGPT-CodeReview/pull/21](https://github.com/anc95/ChatGPT-CodeReview/pull/21)
+[Bard-CodeReview/pull/21](https://github.com/anc95/Bard-CodeReview/pull/21)
 
 <img width="1052" alt="image" src="https://user-images.githubusercontent.com/13167934/218999459-812206e1-d8d2-4900-8ce8-19b5b6e1f5cb.png">
 
@@ -34,7 +34,7 @@ Translation Versions: [ENGLISH](./README.md) | [中文简体](./README.zh-CN.md)
 
 > 깃허브 봇이 humble vps에서 서비스되므로, 항상 안정적인 상태임을 보장할 수 없기 때문에 이 방법을 권장합니다.
 
-[actions/chatgpt-codereviewer](https://github.com/marketplace/actions/chatgpt-codereviewer)
+[actions/Bard-codereviewer](https://github.com/marketplace/actions/Bard-codereviewer)
 
 1. `BARD_API_KEY` 를 당신의 github actions secrets 에 추가합니다.
 2. `.github/workflows/cr.yml` 를 생성하고, 아래의 내용을 추가합니다.
@@ -54,7 +54,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: anc95/ChatGPT-CodeReview@main
+      - uses: anc95/Bard-CodeReview@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BARD_API_KEY: ${{ secrets.BARD_API_KEY }}
