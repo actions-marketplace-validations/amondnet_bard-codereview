@@ -89,8 +89,9 @@ For more, check out the [Contributing Guide](CONTRIBUTING.md).
 
 ## Credit
 
-this project is inpired by [CodeReview BOT](https://github.com/anc95/ChatGPT-CodeReview)
-this project is inpired by [codereview.gpt](https://github.com/sturdy-dev/codereview.gpt)
+This project is inpired by 
+- [CodeReview BOT](https://github.com/anc95/ChatGPT-CodeReview)
+- [codereview.gpt](https://github.com/sturdy-dev/codereview.gpt)
 
 ## License
 
